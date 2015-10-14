@@ -210,10 +210,11 @@ That's a lot of data and we're not using the large majority of it. In the previo
 
 As we've seen, `map` is really good at transforming data.
 
-* Create an array called `simplifiedPhotographs` that takes `photographs` and transforms each one into an object with only two properties: `caption` and `url`.
-* Create an array called `simplifiedPhotographs` that takes `photographs` and transforms each one into a DOM element.
+* Create an array called `simplifiedPhotographs` that takes `photographs` and transforms each one into an object with only two properties: `caption` and `url`, where `caption` is the photograph's text and `url` is the photograph's low_resolution image;
 
-Tests have been provided in `demos/02-map` to help guide your progress and let you know if you've gotten it right.
+* Create an array called `photographElements` that takes `simplifiedPhotographs` and transforms each one into a DOM element.
+
+Tests have been provided in `demos/02-map` to help guide your progress and let you know if you've gotten it right. To install mocha, run `npm install -g mocha`. You can view these tests in the browser by starting up a server (`asdf` gem) and going to `http://localhost:9292/examples/02-map/index.html`.
 
 As a bonus, you can try the following in `01-forEach`:
 
