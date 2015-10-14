@@ -1,6 +1,4 @@
-var photographs = instagramAPI.data.filter(function (asset) {
-  return asset.type === 'image';
-}).slice(0, 16);
+var photographs = instagramAPI.data;
 
 var photographsDiv = document.getElementById('photographs');
 
